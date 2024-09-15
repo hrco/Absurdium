@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif; /* Because why not? */
+}
+
+body {
+    background-color: #f0f8ff; /* Cool colors for an otherwise chaotic world */
+}
+
+.container {
+    text-align: center;
+    margin: 5% auto;
+    max-width: 800px;
+}
+
+header {
+    background-color: #ff00ff; /* Absurdly bright */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 4px 4px #000;
+}
+
+h2 {
+    color: #00ff00; /* Unpleasant but vibrant */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #000;
+}
+
+.flash-text {
+    color: red;
+    animation: flash 1s infinite alternate;
+}
+
+@keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.absurd-image {
+    border: 10px solid yellow;
+    transform: rotate(45deg); /* Because nothing should make sense */
+}
+
+.random-facts {
+    background-color: #ffcc00;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    color: #0000ff;
+}
+
+.absurd-button {
+    margin: 40px 0;
+}
+
+button {
+    background-color: #00ffff;
+    color: #ff00ff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 5px solid #000;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
