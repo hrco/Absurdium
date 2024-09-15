@@ -46,10 +46,18 @@ p {
     to { opacity: 0; }
 }
 
+
 .absurd-image {
+    max-width: 50%; /* Adjust the image size to 50% of the container */
+    margin: 20px auto; /* Center the image with margin */
+    display: block; /* Ensures the image doesn't disrupt text flow */
+    border: 10px solid yellow;
+    transform: rotate(45deg); /* Keeps the absurd rotation */
+}
+/*.absurd-image {
     border: 10px solid yellow;
     transform: rotate(45deg); /* Because nothing should make sense */
-}
+}*/
 
 .random-facts {
     background-color: #ffcc00;
